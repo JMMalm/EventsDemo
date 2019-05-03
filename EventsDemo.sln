@@ -5,7 +5,12 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventsDemo", "EventsDemo\EventsDemo.csproj", "{40164CB4-6DAC-470C-BC64-182CDF2302F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventsDemo.Core", "EventsDemo.Core\EventsDemo.Core.csproj", "{58192C1E-64B2-4D90-80F7-DFE24853A4AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventsDemo.Core", "EventsDemo.Core\EventsDemo.Core.csproj", "{58192C1E-64B2-4D90-80F7-DFE24853A4AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3523AB60-5E73-4F01-8062-14DF44A374BB}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
