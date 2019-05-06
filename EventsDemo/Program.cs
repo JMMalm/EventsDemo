@@ -1,6 +1,5 @@
-﻿using System;
-using EventsDemo.Core;
-using System.Collections.Generic;
+﻿using EventsDemo.Core;
+using System;
 using System.Threading.Tasks;
 
 namespace EventsDemo
@@ -26,6 +25,10 @@ namespace EventsDemo
 			Console.ReadKey();
 		}
 
+		/// <summary>
+		/// Runs a scenario where an object's event-handler is assigned
+		/// a method from another object.
+		/// </summary>
 		private static void ScenarioHasSubscriber()
 		{
 			/* Link the event to a method of the subscribing object.
@@ -44,6 +47,9 @@ namespace EventsDemo
 			Task.WaitAll(tasks);
 		}
 
+		/// <summary>
+		/// Runs a scenario where an object's event-handler is null.
+		/// </summary>
 		private static void ScenarioNoSubscriber()
 		{
 			if (Jordon.HasMethodAsEventHandler("OnWorkCompleted"))
